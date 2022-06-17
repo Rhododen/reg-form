@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="flex-container">
+    <div class="item1">
+      <p>Learn to code by watching others</p>
+      <p>See how experienced developers solve problems in real-time.Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+    </div>
+
+    <center>
+    <div class="item2">
+      <div>
+        <p class="heading2">Try it free 7 days then $20 &#47;mo. thereafter</p>
+      </div>
+
+      <div class="inclusive-form">
+      <form id="reg-form">
+        <div class="input-holder" data-error="First Name cannot be empty">
+          <input type="text" class="input" id="fname" name="fname" placeholder="First Name" required><br>
+        </div>
+        <div class="input-holder" data-error="Last Name cannot be empty">
+          <input type="text" class="input" id="lname" name="lname" placeholder="Last Name" required><br>
+        </div>
+        <div class="input-holder" data-error="Looks like this is not an email">
+          <input type="email" class="input" id="email" name="email" placeholder="Email Address" required><br>
+        </div>
+        <div class="input-holder" data-error="Password cannot be empty">
+          <input type="password" class="input" id="pword" name="pword" placeholder="Password" required><br>
+        </div>
+
+      </form>
+      <button type="submit" form="reg-form" value="Submit" class="button">CLAIM YOUR FREE TRIAL</button>
+      <p>By clicking the button you agree to our <a href="#">Terms and Services</a></p>
+      </div>
+
+
+    </div>
+    </center>
+
+  </div>
+</body>
+</html>
